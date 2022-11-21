@@ -24,6 +24,15 @@ const Navbar = () => {
     text-decoration: none;
     color: #E0F4FF;
     `
+    const Btn = styled.button`
+    border: solid 1px #CDF72B;
+    background-color: #CDF72B;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: black;
+    `
 
 
 
@@ -35,6 +44,7 @@ const Navbar = () => {
              <MenuList><Anchor href="">Information</Anchor></MenuList>
              <MenuList><Anchor href="">Help</Anchor></MenuList>
              <MenuList><Anchor href="">Contact</Anchor></MenuList>
+             <Btn>Sign In</Btn>
          </NavList>
      </Nav>
   )

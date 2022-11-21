@@ -21,10 +21,10 @@ function Herobanner() {
     const Btn = styled.button`
     border: solid 1px #CDF72B;
     background-color: transparent;
-    width: 300px;
-    height: 80px;
+    width: 150px;
+    height: 50px;
     border-radius: 5px;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #CDF72B;
     `
 
@@ -35,7 +35,7 @@ function Herobanner() {
         <Paragraph>Don’t be afraid of failing <br />
         Lorem Ipsum is simply dummy text!
         </Paragraph>
-        <Btn> Sign In</Btn>
+        <Btn> Sign Up</Btn>
     </Hero>
   )
 }
